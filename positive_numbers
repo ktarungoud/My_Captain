@@ -1,0 +1,10 @@
+numbers_list=[]
+total_numbers=int(input("the total numbers"))
+for i in range(total_numbers):
+	a=int(input("enter number for the list"))
+	numbers_list.append(a)
+positive_numbers=[]
+for number in numbers_list:
+	if number>0:
+		positive_numbers.append(number)
+print(positive_numbers)
