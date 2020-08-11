@@ -1,0 +1,22 @@
+#lists
+list1=[1,2,"Tarun"]
+list1.append("Heansika")
+list1.append(3)
+list1.insert(1,8)
+print(list1)
+
+#Tuples
+tuple=(1,2,6,"Tarun","Heansika")
+print(tuple[1])
+print(tuple[:2])
+print(tuple[3:])
+print(tuple[1:3])
+print(tuple[3]+" "+tuple[4])
+
+#Dictionaries
+dict={1:"hi",2:"hello","Tarun":"Heansika"}
+print(dict)
+del dict[1]
+print(dict)
+del dict
+print(dict)
